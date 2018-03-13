@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Winter Olympics</title>
+    <style>
+      #svg { border: 1px solid black;}
+    </style>
+  </head>
+  <body>
+    <h1>Winter Olympics Medal Infographic!</h1>
+    <svg height="500" width="500" id="svg" xlmns="http://www.w3.org/2000/svg">
+      <circle cy="250" cx="100" r="30" fill="gold" stroke="gold">test</circle>
+      <circle cy="250" cx="250" r="30" fill="silver" stroke="silver"></circle>
+      <circle cy="250" cx="400" r="30" fill="#7f533b" stroke="#7f533b"></circle>
+    </svg>
+    <br>
+    <input type="radio" name="country" value="sweden" id="sweden"> Sweden (7 gold, 6 silver, 1 bronze)<br>
+    <input type="radio" name="country" value="south_korea" id="south_korea"> South Korea (5 gold, 8 silver, 4 bronze)<br>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="svg.js"></script>
+  </body>
+</html>
